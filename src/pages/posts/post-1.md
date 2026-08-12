@@ -33,3 +33,5 @@ Coucou, voici mon 1er post sur ce blog
 À bientôt !
 
 Jolan
+
+<a href="/blog/">retour</a>
