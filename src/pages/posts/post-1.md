@@ -1,4 +1,5 @@
 ---
+layout: ../../styles/global-layout.astro
 title: '1er post'
 pubDate: 12/08/2026
 description: 'Ceci est un premier post, qui sert d essai'
