@@ -2,19 +2,17 @@
 import '../styles/global.css';
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
+const pageTitle = "About";
 ---
 <html lang="fr">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>About Lalarchi</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
 		<Navigation/>
-		<h1>À propos de Lalarchi</h1>
+		<h1>{pageTitle}</h1>
         <p>Le site de Lala Lalarchi est fait par son grand frère adoré Jojo.</p>
 		<Footer/>
 	</body>

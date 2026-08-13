@@ -2,6 +2,7 @@
 import Navigation from '../components/Navigation.astro';
 import '../styles/global.css';
 import Footer from '../components/Footer.astro';
+const pageTitle = "Projets";
 ---
 <html lang="fr">
 	<head>
@@ -10,11 +11,11 @@ import Footer from '../components/Footer.astro';
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>projets de Lalarchi</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
  		<Navigation/>
-		<h1>Les projets de Lalarchi</h1>
+		<h1>{pageTitle}</h1>
         <p>Pour l'instant, il y a juste un essai de <a href="/blog/">blog</a></p>
 		<Footer/>
 	</body>
