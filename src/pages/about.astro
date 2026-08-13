@@ -2,15 +2,19 @@
 import '../styles/global.css';
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
 const pageTitle = "About";
 
 const identity = {
   firstName: "Sarah",
   country: "Canada",
   occupation: "Technical Writer",
-  hobbies: ["photography", "birdwatching", "baseball"],
+  hobbies: ["photography"],
 };
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
+const happy = true;
+const finished = false;
+const goal = 3;
 ---
 <html lang="fr">
 	<head>
@@ -19,7 +23,7 @@ const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
 		<title>{pageTitle}</title>
 	</head>
 	<body>
-		<Navigation/>
+		<Header/>
 		<h1>{pageTitle}</h1>
         <p>Le site de Lala, Lalarchi, est fait par son grand frère adoré Jojo.</p>
 <p>Here are a few facts about me:</p>
@@ -34,6 +38,11 @@ const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
 <ul>
   {skills.map((skill) => <li>{skill}</li>)}
 </ul>
+{happy && <p>I am happy to be learning Astro!</p>}
+
+{finished && <p>I finished this tutorial!</p>}
+
+{goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
 		<Footer/>
 	</body>
 </html>
