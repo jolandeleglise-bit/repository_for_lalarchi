@@ -17,7 +17,7 @@ tags: ["astro", "blogging", "learning in public"]
 <br>
 <a href="/blog/">retourner vers le blog</a>
 
-# Mon 1er post
+# Voici mon 1er post
 
 Publié le : 12/08/2026
 
