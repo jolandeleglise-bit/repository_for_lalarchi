@@ -9,7 +9,7 @@ image:
     alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-<a href="/">Menu</a>
+<a href="/">Accueil</a>
 <br>
 <a href="/projets">Projets</a>
 <br>
